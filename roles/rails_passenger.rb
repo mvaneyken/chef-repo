@@ -2,7 +2,6 @@ name 'rails_passenger'
 description 'This role configures a Rails stack using Passenger'
 run_list(
   "role[base]",
-  "recipe[packages]",
   "recipe[rails::passenger]",
   "recipe[ruby_build]",
   "recipe[rbenv]",

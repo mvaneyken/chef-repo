@@ -2,7 +2,6 @@ name "sysadmins"
 description "This role configures sysadmins, users with sudo-rights on your server"
 run_list(
   "role[base]",
-  "recipe[packages]",
   "recipe[sysadmins]",
   "recipe[sudo]"
 )

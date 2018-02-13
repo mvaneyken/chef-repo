@@ -2,11 +2,7 @@ name 'rails'
 description 'This role configures a Rails stack using Unicorn'
 run_list(
   "role[base]",
-  "recipe[packages]",
-  "recipe[nginx]",
   "recipe[rails]",
-  "recipe[ruby_build]",
-  "recipe[rbenv]",
   "recipe[rails::databases]",
   "recipe[git]",
   "recipe[ssh_deploy_keys]",
