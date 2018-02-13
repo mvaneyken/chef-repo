@@ -10,11 +10,21 @@ nodes/.gitignore
 /tmp
 .vagrant
 
+# Bundler
+Gemfile.lock
 .bundle/install.log
 .bundle
 
+# test kitchen
 .kitchen
 .kitchen/
+.kitchen.local.yml
+
+# Chef
+Berksfile.lock
+Policyfile.lock.json
+Cheffile.lock
+.zero-knife.rb
 .librarian
 
 .rbenv-vars
