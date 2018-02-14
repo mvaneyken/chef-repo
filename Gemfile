@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "rake"
 gem "chef", "~> 12.5.1"
-gem "berks", "~> 6.3.1"
+gem "berkshelf", "~> 6.3.1"
 gem "knife-solo", "~> 0.5.1"
 gem "librarian-chef", "~> 0.0.4"
 
