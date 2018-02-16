@@ -14,6 +14,7 @@ cookbook 'sudo', '~> 4.0.0'
 cookbook 'users', '~> 4.0.3'
 cookbook 'imagemagick', '~> 0.2.3'
 cookbook 'poise-service', '~> 1.5.2'
+cookbook 'mysql2_chef_gem', '~> 2.1.0'
 
 # Our own cookbooks from vendor/
 cookbook "packages", path: "vendor/cookbooks/packages"
