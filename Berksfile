@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 source 'https://supermarket.chef.io'
 
-metadata
-
 cookbook 'apt', '~> 6.1.4'
 cookbook 'build-essential', '~> 8.0.4'
 cookbook 'ruby_build', '~> 1.1.0'
