@@ -16,7 +16,7 @@ cookbook 'mysql2_chef_gem', '~> 2.1.0'
 
 # Our own cookbooks from vendor/
 cookbook "packages", path: "vendor/cookbooks/packages"
-cookbook "rails", github: "hieunb/hnb_rails"
+cookbook "rails", github: "hieunba/hnb_rails"
 cookbook "ssh_deploy_keys", path: "vendor/cookbooks/ssh_deploy_keys"
 cookbook "backups", path: "vendor/cookbooks/backups"
 cookbook "sysadmins", path: "vendor/cookbooks/sysadmins"
