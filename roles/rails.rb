@@ -8,7 +8,8 @@ run_list(
   "recipe[ssh_deploy_keys]",
   "recipe[postfix]",
   "recipe[rails::env_vars]",
-  "recipe[apt::unattended-upgrades]"
+  "recipe[apt::unattended-upgrades]",
+  "recipe[imagemagick::rmagick]"
 )
 
 default_attributes(
